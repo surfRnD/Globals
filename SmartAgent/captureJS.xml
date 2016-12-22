@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2016-12-22 09:13:10">
+<sys_ui_script action="INSERT_OR_UPDATE">
+<active>false</active>
+<description/>
+<global>true</global>
+<name>capture.js</name>
+<script><![CDATA[setTimeout(loadCapture, 2000);
+
+function loadCapture() {
+	var mainWindow = window.top? window.top: window;
+	$j(mainWindow.document).find('body').append("<div id='capture' class='CaptureButton'/> <img id='captureImg'/><img id='captureImg1'/><style>.CaptureButton{height:100px; width:100px; position:absolute; bottom: 0px; left: 0px; background-color: red;}</style>");
+	$j(mainWindow.document).find('#capture').on('click', function(){
+		mainWindow.generate();
+	});
+
+
+
+	(function (exports) {
+		function urlsToAbsolute(nodeList) {
+			if (!nodeList.length) {
+				return [];
+			}
+			var attrName = 'href';
+			if (nodeList[0].__proto__ === HTMLImageElement.prototype || nodeList[0].__proto__ === HTMLScriptElement.prototype) {
+				attrName = 'src';
+			}
+			nodeList = [].map.call(nodeList, function (el, i) {
+				var attr = el.getAttribute(attrName);
+				if (!attr) {
+					return;
+				}
+				var absURL = /^(https?|data):/i.test(attr);
+				if (absURL) {
+					return el;
+				} else {
+					return el;
+				}
+			});
+			return nodeList;
+		}
+
+		function screenshotPage() {
+			var mainDoc = exports.document;
+			//urlsToAbsolute(document.images);
+			//urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));
+			var screenshot = mainDoc.documentElement.cloneNode(true);
+			var b = mainDoc.createElement('base');
+			b.href = mainDoc.location.protocol + '//' + location.host;
+			var head = screenshot.querySelector('head');
+			head.insertBefore(b, head.firstChild);
+			screenshot.style.pointerEvents = 'none';
+			screenshot.style.overflow = 'hidden';
+			screenshot.style.webkitUserSelect = 'none';
+			screenshot.style.mozUserSelect = 'none';
+			screenshot.style.msUserSelect = 'none';
+			screenshot.style.oUserSelect = 'none';
+			screenshot.style.userSelect = 'none';
+			screenshot.dataset.scrollX = window.scrollX;
+			screenshot.dataset.scrollY = window.scrollY;
+			var script = mainDoc.createElement('script');
+			script.textContent = '(' + addOnPageLoad_.toString() + ')();';
+			screenshot.querySelector('body').appendChild(script);
+			var blob = new Blob([screenshot.outerHTML], {
+				type: 'text/html'
+			});
+			return blob;
+		}
+
+		function addOnPageLoad_() {
+			var mainDoc = exports.document;
+			exports.addEventListener('DOMContentLoaded', function (e) {
+				var scrollX = mainDoc.documentElement.dataset.scrollX || 0;
+				var scrollY = mainDoc.documentElement.dataset.scrollY || 0;
+				exports.scrollTo(scrollX, scrollY);
+			});
+		}
+
+		function generate() {
+			mainWindow.URL = mainWindow.URL || mainWindow.webkitURL;
+			var url = mainWindow.URL.createObjectURL(screenshotPage());
+			var img = $j('#captureImg');
+			img.onload = function(){
+			  // Now that the image has loaded, put the image into a canvas element.
+			  var canvas = d3.select('body').append('canvas').node();
+			  canvas.width = 100;
+			  canvas.height = 100;
+			  var ctx = canvas.getContext('2d');
+			  ctx.drawImage(img, 0, 0);
+			  var canvasUrl = canvas.toDataURL("image/png");
+			  var img2 = $j('#captureImg1')
+				.attr('width', 100)
+				.attr('height', 100)
+				.node();
+			  // this is now the base64 encoded version of our PNG! you could optionally 
+			  // redirect the user to download the PNG by sending them to the url with 
+			  // `window.location.href= canvasUrl`.
+			  img2.src = canvasUrl; 
+			}
+			// start loading the image.
+			img.src = url;
+
+			window.open(url);
+		}
+		exports.screenshotPage = screenshotPage;
+		exports.generate = generate;
+	})(mainWindow);
+}]]></script>
+<script_name/>
+<sys_class_name>sys_ui_script</sys_class_name>
+<sys_created_by>shyam.j</sys_created_by>
+<sys_created_on>2016-12-12 13:06:40</sys_created_on>
+<sys_customer_update>true</sys_customer_update>
+<sys_id>c22158576f6b620067a8c8c17c3ee4b9</sys_id>
+<sys_mod_count>17</sys_mod_count>
+<sys_name>capture.js</sys_name>
+<sys_package display_value="Global">global</sys_package>
+<sys_policy/>
+<sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_ui_script_c22158576f6b620067a8c8c17c3ee4b9</sys_update_name>
+<sys_updated_by>chaitanya.s</sys_updated_by>
+<sys_updated_on>2016-12-22 08:29:48</sys_updated_on>
+<use_scoped_format>false</use_scoped_format>
+</sys_ui_script>
+</unload>

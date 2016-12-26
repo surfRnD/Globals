@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2016-12-26 13:57:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Marketing Usecases</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>a62b61b14f7b22004172fc728110c778</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>842364374f7fe2004172fc728110c7b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_dashboards_aaed481d9f902200ef4afa7dc67fcf50</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards"><pa_dashboards action="INSERT_OR_UPDATE"><active>true</active><breakdown_source/><group/><groups/><is_breakdown>false</is_breakdown><managed_breakdown/><managed_publisher/><name>Usage by Requestor</name><no_tabs>true</no_tabs><order>2010</order><owner/><restrict_to_roles>pa_viewer,pa_contributor</restrict_to_roles><role_override>false</role_override><roles/><sys_class_name>pa_dashboards</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-27 18:20:26</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aaed481d9f902200ef4afa7dc67fcf50</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Usage by Requestor</sys_name><sys_overrides/><sys_package display_value="API Analytics" source="com.glide.api_analytics">8b2b4f9b4f2222004172fc728110c7eb</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_dashboards_aaed481d9f902200ef4afa7dc67fcf50</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 07:58:27</sys_updated_on><users/><visible_to>2</visible_to></pa_dashboards></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>002364374f7fe2004172fc728110c7b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>Usage by Requestor</target_name>
+<type>Dashboard</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_01203a1e6f7b620067a8c8c17c3ee4de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>A new button 'Create Contact/Account' button will be visible. This button is visible only when Account /Contact is blank on Lead. So before ocnverting the lead Account/Contact can be created.</step_description><step_number>12</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:23:56</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>01203a1e6f7b620067a8c8c17c3ee4de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_01203a1e6f7b620067a8c8c17c3ee4de</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:23:56</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>002364374f7fe2004172fc728110c7b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_4511be1e6f7b620067a8c8c17c3ee462</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>A popup says Account will be created in 24 hours after ADMIN approval.</step_description><step_number>20</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:27:07</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>4511be1e6f7b620067a8c8c17c3ee462</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_4511be1e6f7b620067a8c8c17c3ee462</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:27:07</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>002364374f7fe2004172fc728110c7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_a769e6f16f7f220067a8c8c17c3ee45c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Name of the Schedule job is 'Eloqua: Sync Leads and Contacts data'</step_description><step_number>13</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:36:59</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a769e6f16f7f220067a8c8c17c3ee45c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_a769e6f16f7f220067a8c8c17c3ee45c</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:36:59</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>002364374f7fe2004172fc728110c7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_usecases_e6c0b0356fbb220067a8c8c17c3ee42d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_usecases"><x_snc_techdoc_usecases action="INSERT_OR_UPDATE"><description>Lead Conversion</description><feature>Lead Conversion</feature><name>Lead Conversion</name><navigator>https://whatfix.com/community/#!flows/lead-conversion/b650c2d0-c69d-11e6-b9ea-04013d24cf02/</navigator><step2nextevent/><sys_class_name>x_snc_techdoc_usecases</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 10:20:27</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>e6c0b0356fbb220067a8c8c17c3ee42d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Lead Conversion</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_usecases_e6c0b0356fbb220067a8c8c17c3ee42d</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 10:20:27</sys_updated_on><technical_flow/><track>marketing</track></x_snc_techdoc_usecases></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>002364374f7fe2004172fc728110c7c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>Lead Conversion</target_name>
+<type>Use Cases</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_2cf0be1e6f7b620067a8c8c17c3ee4a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>'Create Contact/Account' button will be visible as Account is empty</step_description><step_number>18</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:26:52</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>2cf0be1e6f7b620067a8c8c17c3ee4a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_2cf0be1e6f7b620067a8c8c17c3ee4a5</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:26:52</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>042364374f7fe2004172fc728110c7b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_7edf661e6f7b620067a8c8c17c3ee4ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>When we create Activity through 'New' button than we can select any Activity Type except Meeting.</step_description><step_number>9</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:22:06</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7edf661e6f7b620067a8c8c17c3ee4ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_7edf661e6f7b620067a8c8c17c3ee4ae</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:22:06</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>042364374f7fe2004172fc728110c7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_f441725e6f7b620067a8c8c17c3ee404</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Account and Contact are empty than Create Contact/Account button is visible</step_description><step_number>23</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:27:58</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f441725e6f7b620067a8c8c17c3ee404</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_f441725e6f7b620067a8c8c17c3ee404</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:27:58</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>042364374f7fe2004172fc728110c7c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_205ce6356f7f220067a8c8c17c3ee4a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>For lead Conversion we have 4 different scenarios&#13;
+1. Account and Contact both exist.&#13;
+2. Contact iss empty but Account is present on Lead.&#13;
+3. Account is empty and Contact is not empty.&#13;
+4. When Account and contact both does not exist&#13;
+&#13;
+&#13;
+</step_description><step_number>1</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:51:34</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>205ce6356f7f220067a8c8c17c3ee4a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_205ce6356f7f220067a8c8c17c3ee4a6</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:51:34</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>082364374f7fe2004172fc728110c7b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_74d07e1e6f7b620067a8c8c17c3ee470</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>3rd Scenario</step_description><step_number>16</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:26:07</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>74d07e1e6f7b620067a8c8c17c3ee470</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_74d07e1e6f7b620067a8c8c17c3ee470</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:26:07</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>082364374f7fe2004172fc728110c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_d95a2ef16f7f220067a8c8c17c3ee4bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Search Lead Integration - Lead/Contact mapping. It stores the mapping from Eloqua to SURF for 3 tables Lead/Contact and Account.</step_description><step_number>4</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:41:20</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>d95a2ef16f7f220067a8c8c17c3ee4bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_d95a2ef16f7f220067a8c8c17c3ee4bf</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:41:20</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>082364374f7fe2004172fc728110c7c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_1871f25e6f7b620067a8c8c17c3ee42a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Account gets created after 24 hours after Admin approval.</step_description><step_number>26</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:28:41</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>1871f25e6f7b620067a8c8c17c3ee42a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_1871f25e6f7b620067a8c8c17c3ee42a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:28:41</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>0c2364374f7fe2004172fc728110c7b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_5f9e52fd6f3f220067a8c8c17c3ee4c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>If update happens on critical fields of Lead record than Lead is marked unsynchrozized. Here critical fields are the fields which we are syncing to Eloqua from lead record.</step_description><step_number>1</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:04:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>5f9e52fd6f3f220067a8c8c17c3ee4c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_5f9e52fd6f3f220067a8c8c17c3ee4c0</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:04:23</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>0c2364374f7fe2004172fc728110c7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_b3ffe61e6f7b620067a8c8c17c3ee48e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>ADRs can create meetings only through Lead Conversion.</step_description><step_number>10</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:22:22</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b3ffe61e6f7b620067a8c8c17c3ee48e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_b3ffe61e6f7b620067a8c8c17c3ee48e</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:24:59</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>0c2364374f7fe2004172fc728110c7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_2cb0ba1e6f7b620067a8c8c17c3ee4b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Contact created &amp; associated to Lead.Lead reference also updated to contact</step_description><step_number>14</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:25:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>2cb0ba1e6f7b620067a8c8c17c3ee4b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_2cb0ba1e6f7b620067a8c8c17c3ee4b4</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:25:30</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>402364374f7fe2004172fc728110c7b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_78c8e2f16f7f220067a8c8c17c3ee450</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Table denotes which table these fields belongs to. As if now there are 3 tables fields are entered as part of mapping. Lead, Contact and Account.</step_description><step_number>11</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:34:45</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>78c8e2f16f7f220067a8c8c17c3ee450</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_78c8e2f16f7f220067a8c8c17c3ee450</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:34:45</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>402364374f7fe2004172fc728110c7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_e3fa22356f7f220067a8c8c17c3ee4f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>This table stores the JSON which we are receiving from Eloqua for Lead/Contact/Account data which different campaigns and action services.</step_description><step_number>8</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:44:39</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>e3fa22356f7f220067a8c8c17c3ee4f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_e3fa22356f7f220067a8c8c17c3ee4f3</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:44:39</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>402364374f7fe2004172fc728110c7c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_1d2aaaf16f7f220067a8c8c17c3ee493</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>We can see how many action services we have from Eloqua by grouping Action Type.</step_description><step_number>4</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:40:22</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>1d2aaaf16f7f220067a8c8c17c3ee493</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_1d2aaaf16f7f220067a8c8c17c3ee493</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:40:22</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>442364374f7fe2004172fc728110c7b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_7367aab16f7f220067a8c8c17c3ee4cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>To get the list of critical fields on Lead. Type 'Eloqua' in left hand search and click on settings/Properties.</step_description><step_number>6</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:29:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7367aab16f7f220067a8c8c17c3ee4cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_7367aab16f7f220067a8c8c17c3ee4cf</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:29:13</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>442364374f7fe2004172fc728110c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_c521325e6f7b620067a8c8c17c3ee458</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Lead Conversion Button will be available after Account gets created.</step_description><step_number>21</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:27:21</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c521325e6f7b620067a8c8c17c3ee458</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_c521325e6f7b620067a8c8c17c3ee458</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:27:21</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>442364374f7fe2004172fc728110c7ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_d2e6ea716f7f220067a8c8c17c3ee4dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Eloqua sync status set to  'Unsynchronized' on update.</step_description><step_number>4</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:26:04</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>d2e6ea716f7f220067a8c8c17c3ee4dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_d2e6ea716f7f220067a8c8c17c3ee4dc</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:26:04</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>442364374f7fe2004172fc728110c7c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_13122afd6f3f220067a8c8c17c3ee41b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>There is a Eloqua Sync Status field on Lead record which denotes the status of Lead record. If its value is 'synchronized' that symbolized the data is in sync between SURF and Eloqua for this record. And we can get the last update date time from the field 'Marketing Usecases' on lead record</step_description><step_number>2</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:24:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>13122afd6f3f220067a8c8c17c3ee41b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_13122afd6f3f220067a8c8c17c3ee41b</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:24:13</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>482364374f7fe2004172fc728110c7b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_5dcf261e6f7b620067a8c8c17c3ee4cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>New Activity can be created on clicking 'New' button.&#13;
+</step_description><step_number>8</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:21:31</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>5dcf261e6f7b620067a8c8c17c3ee4cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_5dcf261e6f7b620067a8c8c17c3ee4cd</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:21:31</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>482364374f7fe2004172fc728110c7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_b260f61e6f7b620067a8c8c17c3ee498</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Click on 'Create Contact/Account'To create or associate existing Contact.</step_description><step_number>13</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:24:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b260f61e6f7b620067a8c8c17c3ee498</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_b260f61e6f7b620067a8c8c17c3ee498</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:24:13</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>482364374f7fe2004172fc728110c7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_dashboards_permissions_ab571c796f7b220067a8c8c17c3ee431</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Usage by Requestor">aaed481d9f902200ef4afa7dc67fcf50</dashboard><delete>true</delete><group/><identity>pa_admin</identity><read>true</read><role display_value="pa_admin" name="pa_admin">a4cc30b3bf101100b96dac808c073918</role><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 07:58:28</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ab571c796f7b220067a8c8c17c3ee431</sys_id><sys_mod_count>0</sys_mod_count><sys_name>pa_admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_dashboards_permissions_ab571c796f7b220067a8c8c17c3ee431</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 07:58:28</sys_updated_on><type>1</type><user/><write>true</write></pa_dashboards_permissions></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>4c2364374f7fe2004172fc728110c7b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>pa_admin</target_name>
+<type>Dashboard Permissions</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_3a6fa21e6f7b620067a8c8c17c3ee425</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Meeting cannot be assigned to  the user who created the meeting.&#13;
+</step_description><step_number>5</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:20:04</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>3a6fa21e6f7b620067a8c8c17c3ee425</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_3a6fa21e6f7b620067a8c8c17c3ee425</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:20:04</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>4c2364374f7fe2004172fc728110c7b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_a5f9eaf16f7f220067a8c8c17c3ee42a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Click on 'Lead Integration- Action Service' which stores all the Action type defined in Eloqua</step_description><step_number>3</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:39:36</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a5f9eaf16f7f220067a8c8c17c3ee42a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_a5f9eaf16f7f220067a8c8c17c3ee42a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:39:36</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>4c2364374f7fe2004172fc728110c7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_usecases_3bec68b16fbb220067a8c8c17c3ee432</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_usecases"><x_snc_techdoc_usecases action="INSERT_OR_UPDATE"><description>Lead Sync to Eloqua on Update</description><feature>Lead Sync to Eloqua on Update</feature><name>Lead Sync to Eloqua on Update</name><navigator>https://whatfix.com/community/#!flows/lead-sync-to-eloqua-on-update/34751af0-c697-11e6-bee8-04013d24cc02/</navigator><step2nextevent/><sys_class_name>x_snc_techdoc_usecases</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 09:33:10</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>3bec68b16fbb220067a8c8c17c3ee432</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Lead Sync to Eloqua on Update</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_usecases_3bec68b16fbb220067a8c8c17c3ee432</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 09:33:10</sys_updated_on><technical_flow/><track>marketing</track></x_snc_techdoc_usecases></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>4c2364374f7fe2004172fc728110c7c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>Lead Sync to Eloqua on Update</target_name>
+<type>Use Cases</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_1bafe21e6f7b620067a8c8c17c3ee4df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Newly created Meeting will appear under Activities on Lead.&#13;
+&#13;
+</step_description><step_number>7</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:21:04</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>1bafe21e6f7b620067a8c8c17c3ee4df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_1bafe21e6f7b620067a8c8c17c3ee4df</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:21:04</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>802364374f7fe2004172fc728110c7b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_664faeda6f7b620067a8c8c17c3ee4ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Acttic=vity type = meeting is created on Lead. And associated to Lead.</step_description><step_number>4</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:19:43</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>664faeda6f7b620067a8c8c17c3ee4ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_664faeda6f7b620067a8c8c17c3ee4ca</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:19:43</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>802364374f7fe2004172fc728110c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_b9a666b16f7f220067a8c8c17c3ee43a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>If we update any critical field on lead it is marked unsync. 'Eloqua Sync Status' value becomes 'Unsynchronised'.</step_description><step_number>3</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:25:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b9a666b16f7f220067a8c8c17c3ee43a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_b9a666b16f7f220067a8c8c17c3ee43a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:25:23</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>802364374f7fe2004172fc728110c7ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_cb8aaef16f7f220067a8c8c17c3ee445</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>To see how many mapping types we have we can group by Target types</step_description><step_number>6</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:42:09</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cb8aaef16f7f220067a8c8c17c3ee445</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_cb8aaef16f7f220067a8c8c17c3ee445</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:42:09</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>802364374f7fe2004172fc728110c7c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_1148eab16f7f220067a8c8c17c3ee421</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Surf-Eloqua field mapping table has the mapping between SURF Lead fields and Eloqua table fields</step_description><step_number>8</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:31:44</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>1148eab16f7f220067a8c8c17c3ee421</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_1148eab16f7f220067a8c8c17c3ee421</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:31:44</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>842364374f7fe2004172fc728110c7b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_585b66356f7f220067a8c8c17c3ee40a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>After staging table , data comes to Lead table after applying few rules and filter on it.</step_description><step_number>9</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:45:50</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>585b66356f7f220067a8c8c17c3ee40a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_585b66356f7f220067a8c8c17c3ee40a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:45:50</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>842364374f7fe2004172fc728110c7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_b15822f16f7f220067a8c8c17c3ee443</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>In 'SURF-Eloqua mapping table' , 'SURF Field Name' denotes the field name from Lead Record in SURF.</step_description><step_number>9</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:32:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b15822f16f7f220067a8c8c17c3ee443</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_b15822f16f7f220067a8c8c17c3ee443</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:32:49</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>842364374f7fe2004172fc728110c7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_dashboards_permissions_67571c796f7b220067a8c8c17c3ee42f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Usage by Requestor">aaed481d9f902200ef4afa7dc67fcf50</dashboard><delete>false</delete><group/><identity>api_analytics_read</identity><read>true</read><role display_value="api_analytics_read" name="api_analytics_read">94f673079fb01200ef4afa7dc67fcf97</role><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 07:58:28</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>67571c796f7b220067a8c8c17c3ee42f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>api_analytics_read</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_dashboards_permissions_67571c796f7b220067a8c8c17c3ee42f</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 07:58:28</sys_updated_on><type>1</type><user/><write>false</write></pa_dashboards_permissions></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>882364374f7fe2004172fc728110c7b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>api_analytics_read</target_name>
+<type>Dashboard Permissions</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_389822f16f7f220067a8c8c17c3ee447</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>In 'SURF-Eloqua mapping table' , 'Eloqua Field Name' denotes the field name from Lead Record in Eloqua. In Eloqua there is only one table for Contact and lead.</step_description><step_number>10</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:33:27</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>389822f16f7f220067a8c8c17c3ee447</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_389822f16f7f220067a8c8c17c3ee447</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:33:27</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>882364374f7fe2004172fc728110c7b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_9fba22356f7f220067a8c8c17c3ee4ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Search and click on 'Lead Integration - Staging table. This is the entry point of lead/contact /account record to SURF&gt;</step_description><step_number>7</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:43:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>9fba22356f7f220067a8c8c17c3ee4ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_9fba22356f7f220067a8c8c17c3ee4ea</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:43:13</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>882364374f7fe2004172fc728110c7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_usecases_33d320fd6f7b220067a8c8c17c3ee431</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_usecases"><x_snc_techdoc_usecases action="INSERT_OR_UPDATE"><description>A new Lead created from Eloqua</description><feature>Lead creation in Surf through Eloqua</feature><name>Lead creation from Eloqua</name><navigator>https://whatfix.com/community/#!flows/lead-interaction-from-eloqua/4ec61fb0-c671-11e6-bb6b-04013d24cd02/</navigator><step2nextevent/><sys_class_name>x_snc_techdoc_usecases</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 08:53:59</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>33d320fd6f7b220067a8c8c17c3ee431</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Lead creation from Eloqua</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_usecases_33d320fd6f7b220067a8c8c17c3ee431</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 10:20:57</sys_updated_on><technical_flow/><track>marketing</track></x_snc_techdoc_usecases></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>882364374f7fe2004172fc728110c7c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>Lead creation from Eloqua</target_name>
+<type>Use Cases</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_299be2356f7f220067a8c8c17c3ee434</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Now we have record in Lead table for the JSON which we get from Eloqua and if it is a new record creation than we mark it unsynchronized. Here email is the unique identifier, if with the email ID , there is no record in SURF Lead table then Lead will be created else we will update the same lead.</step_description><step_number>10</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:48:24</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>299be2356f7f220067a8c8c17c3ee434</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_299be2356f7f220067a8c8c17c3ee434</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:48:24</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>8c2364374f7fe2004172fc728110c7b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_7861b25e6f7b620067a8c8c17c3ee47f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>It will trigger Account creation workflow</step_description><step_number>25</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:28:26</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7861b25e6f7b620067a8c8c17c3ee47f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_7861b25e6f7b620067a8c8c17c3ee47f</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:28:26</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>8c2364374f7fe2004172fc728110c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_e1c7ea716f7f220067a8c8c17c3ee4e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>There is a property label 'Give all critical fields (element name) from Leads table (sales_lead) separated by comma (,)' which stores the field names from lead.</step_description><step_number>7</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:30:35</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>e1c7ea716f7f220067a8c8c17c3ee4e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_e1c7ea716f7f220067a8c8c17c3ee4e2</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:30:35</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>8c2364374f7fe2004172fc728110c7c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_049f621e6f7b620067a8c8c17c3ee41f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Click Submit to save the meeting.&#13;
+</step_description><step_number>6</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:20:42</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>049f621e6f7b620067a8c8c17c3ee41f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_049f621e6f7b620067a8c8c17c3ee41f</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:20:42</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c02364374f7fe2004172fc728110c7b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_4eece2da6f7b620067a8c8c17c3ee49d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>'Account' and 'Contact' exist. On Lead Conversion an Activity will be created for Lead.</step_description><step_number>2</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:15:46</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>4eece2da6f7b620067a8c8c17c3ee49d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_4eece2da6f7b620067a8c8c17c3ee49d</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:15:46</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c02364374f7fe2004172fc728110c7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_a951b25e6f7b620067a8c8c17c3ee42a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Click on 'Create Contact/Account'. Popup will come.</step_description><step_number>24</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:28:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a951b25e6f7b620067a8c8c17c3ee42a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_a951b25e6f7b620067a8c8c17c3ee42a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:28:12</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c02364374f7fe2004172fc728110c7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_dashboards_permissions_2f571c796f7b220067a8c8c17c3ee43f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Usage by Requestor">aaed481d9f902200ef4afa7dc67fcf50</dashboard><delete>true</delete><group/><identity>pa_power_user</identity><read>true</read><role display_value="pa_power_user" name="pa_power_user">05dc30b3bf101100b96dac808c07392b</role><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 07:58:28</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>2f571c796f7b220067a8c8c17c3ee43f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>pa_power_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_dashboards_permissions_2f571c796f7b220067a8c8c17c3ee43f</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 07:58:28</sys_updated_on><type>1</type><user/><write>true</write></pa_dashboards_permissions></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c42364374f7fe2004172fc728110c7b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>pa_power_user</target_name>
+<type>Dashboard Permissions</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_32d9aaf16f7f220067a8c8c17c3ee41b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>search eloqua</step_description><step_number>2</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:38:45</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>32d9aaf16f7f220067a8c8c17c3ee41b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_32d9aaf16f7f220067a8c8c17c3ee41b</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:38:45</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c42364374f7fe2004172fc728110c7b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_89e07e1e6f7b620067a8c8c17c3ee476</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Account is empty but Contact is present on Lead</step_description><step_number>17</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:26:17</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>89e07e1e6f7b620067a8c8c17c3ee476</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_89e07e1e6f7b620067a8c8c17c3ee476</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:26:17</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c42364374f7fe2004172fc728110c7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_f771f25e6f7b620067a8c8c17c3ee485</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>After getting Account and Contact we can convert a lead to meeting.&#13;
+</step_description><step_number>27</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:28:55</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f771f25e6f7b620067a8c8c17c3ee485</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_f771f25e6f7b620067a8c8c17c3ee485</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:28:55</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c42364374f7fe2004172fc728110c7c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_27072ab16f7f220067a8c8c17c3ee431</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>When lead record 'eloqua Sync Status' is 'unsynchronized'. It shows data is updated in SURF and its not been sent to Eloqua. So data of that record is not in sync in the 2 sub systems.</step_description><step_number>5</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:27:44</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>27072ab16f7f220067a8c8c17c3ee431</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_27072ab16f7f220067a8c8c17c3ee431</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:27:44</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c82364374f7fe2004172fc728110c7b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_75992af16f7f220067a8c8c17c3ee446</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Type Eloqua in left hand frame and search Eloqua.</step_description><step_number>1 </step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:37:53</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>75992af16f7f220067a8c8c17c3ee446</sys_id><sys_mod_count>1</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_75992af16f7f220067a8c8c17c3ee446</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:38:13</sys_updated_on><use_case display_value="Lead creation from Eloqua">33d320fd6f7b220067a8c8c17c3ee431</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c82364374f7fe2004172fc728110c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_dd09e2f16f7f220067a8c8c17c3ee456</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>To sync data from SURF to Eloqua, SURF use schedule job which runs after every 6hrs.</step_description><step_number>12</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-20 18:36:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>dd09e2f16f7f220067a8c8c17c3ee456</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_dd09e2f16f7f220067a8c8c17c3ee456</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-20 18:36:23</sys_updated_on><use_case display_value="Lead Sync to Eloqua on Update">3bec68b16fbb220067a8c8c17c3ee432</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>c82364374f7fe2004172fc728110c7c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_1b00b61e6f7b620067a8c8c17c3ee43a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>2nd scenario - when Contact empty and Acocunt present on Lead.</step_description><step_number>11</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:22:47</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>1b00b61e6f7b620067a8c8c17c3ee43a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_1b00b61e6f7b620067a8c8c17c3ee43a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:25:05</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>cc2364374f7fe2004172fc728110c7b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_6431be1e6f7b620067a8c8c17c3ee466</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>4th scenario - Acocunt and Contact both empty</step_description><step_number>22</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:27:38</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>6431be1e6f7b620067a8c8c17c3ee466</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_6431be1e6f7b620067a8c8c17c3ee466</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:27:38</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>cc2364374f7fe2004172fc728110c7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_b78e26da6f7b620067a8c8c17c3ee4f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>On click  of 'Convert' user will be navigated to new Activity of Meeting type. Few fields are pre populated from Lead.</step_description><step_number>3</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:18:39</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b78e26da6f7b620067a8c8c17c3ee4f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_b78e26da6f7b620067a8c8c17c3ee4f7</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:18:39</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>cc2364374f7fe2004172fc728110c7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_techdoc_steps_c5c03e1e6f7b620067a8c8c17c3ee47a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_techdoc_steps"><x_snc_techdoc_steps action="INSERT_OR_UPDATE"><active>true</active><step_description>Now Click on 'Convert'. It will create Meeting for the lead.</step_description><step_number>15</step_number><sys_class_name>x_snc_techdoc_steps</sys_class_name><sys_created_by>shifali</sys_created_by><sys_created_on>2016-12-22 08:25:45</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c5c03e1e6f7b620067a8c8c17c3ee47a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>true</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>x_snc_techdoc_steps_c5c03e1e6f7b620067a8c8c17c3ee47a</sys_update_name><sys_updated_by>shifali</sys_updated_by><sys_updated_on>2016-12-22 08:25:45</sys_updated_on><use_case display_value="Lead Conversion">e6c0b0356fbb220067a8c8c17c3ee42d</use_case></x_snc_techdoc_steps></record_update>]]></payload>
+<remote_update_set display_value="Marketing Usecases">842364374f7fe2004172fc728110c7b1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-12-26 13:57:41</sys_created_on>
+<sys_id>cc2364374f7fe2004172fc728110c7c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-12-26 13:57:41</sys_updated_on>
+<table/>
+<target_name>true</target_name>
+<type>Steps</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
